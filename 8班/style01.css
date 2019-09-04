@@ -1,0 +1,206 @@
+﻿@charset "utf-8"
+*{
+	font-style:normal;
+	margin: 0px;
+	padding: 0px;
+}
+.inner{
+	top: 0;
+	left: 0;
+	clear: both;
+	max-width: 900px;
+	margin: 0 auto;
+}
+ul{
+	 padding-inline-start: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(shop/tatmi.jpg);
+
+	background-color: #abff2f;/*#5ea733*/
+	font-family:sans-serif;
+	font-size: 125%;
+	line-height:1.6;
+}
+#all{
+	width : 900px;
+	margin: 0px auto;
+	border-right: 1px solid #000000;
+	border-left:1px solid #000000;
+	background-color: #ffffff;
+	/* 色彩設定はレイアウト変更のために一時変更 */
+}
+/* ------------------------------------ */
+
+.menubar {
+		background-color: #ffffff;/*背景色*/
+		background-image: url(shop/hikawa.jpg);
+		background-repeat: no-repeat;
+		height: 265px;
+		border-top: 3px solid #FF6600;
+		position: relative;
+    z-index: 10;
+    margin: 0px;
+    padding: 0px;
+    left: auto;
+    border-top: 1px solid #000;		/*メニューバーの境界線 */
+    border-bottom: 1px solid #2a3439;
+    clear: both;
+}
+
+.menubar>inner {/*ul*/
+	position: absolute;/*relativeつけたabsolute*/
+	top: 233px;
+    overflow: hidden;
+
+}
+	.menubar ul{
+		position: absolute;
+		top:205px;
+	}
+
+.menubar ul li {
+
+    float: left;
+    width: 180px;	/*メニューバーの幅*/
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menubar ul li a {
+    color: black;/*文字色 */
+    line-height: 3em;
+    text-align: center;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    display: block;
+}
+
+ul a:hover {
+ z-index: auto;
+
+background-color: #ff4500;/*ff4500ここがメニューバーの背景色 */
+    color: #dd0000
+}
+
+/*----------------------------------*/
+/*ddメニュースタイル*//*relative?*/
+
+		.menubar ul.ddmenu {
+		position: absolute;
+		top:205px;
+		}
+.menubar ul.ddmenu {
+    position: absolute;/*absolute*/
+    	top:60px;
+    padding: 0;
+    height: auto;
+    width: 180px;
+    border-radius: 0px;/*丸み*/
+    background: #333;/*ここの設定でddmenuの背景色が変わる */
+    /* padding: 10px; */
+    font-size: 14px;
+    z-index: auto;
+    text-decoration: none;
+}
+.menubar ul.ddmenu :hover{
+background-color: #ff4500
+}
+
+.menubar ul.ddmenu:link {
+    font-size: 15px;
+    color: #59b9d5;
+    position: absolute;/*relative?*/
+    left: 27%
+
+}
+.menubar .inner ul{
+ visibility: hidden;
+
+}
+
+/*メニュー一つ当たりの設定*/
+.menubar ul.ddmenu li {
+    width: 100%;
+    float: left;
+}
+
+.menubar ul.ddmenu li a {
+    transition: 0s;
+    background: none;
+    height: auto;/*auto*/
+    width: 100%;
+    color: #fff;/*ddもじ*/
+    /* padding: 0px 5px; */
+    opacity: 0.8;/*0.8*/
+
+}
+ul.inner li:hover ul{
+ z-index: auto;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+h2 {
+	font-family: impact;
+
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+	border-left: 2px #black;
+	border-right: : 2px #black;
+ border-top:2px #black;
+ border-bottom: 2px #black;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+  cursor: grab	;
+}
+
+table th,table td{
+  text-align: center;
+  width: 16%;
+  padding: 15px 0;
+}
+
+table td.icon{
+  background-size: 35px;
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+table td.icon.bird{
+  background-image: url(icon-bird.png)
+}
+
+table td.icon.whale{
+  background-image: url(icon-whale.png)
+}
+
+table td.icon.crab{
+  background-image: url(icon-crab.png)
+}
+/* フッター */
+#footer{
+	font-size: 0.6em;
+	background-color: #9447;
+}
+
+#footer #iken{
+	color: #000000;
+	font-size: 1.2em;
+	text-decoration: none;
+	transition-property: all;
+  	transition-duration: .9s;
+}
+#footer #iken:hover{
+	color: #ff5555;
+}
