@@ -282,4 +282,32 @@ h1 {
 }
 #gazo{
 	margin-left:5px;
+}#jinja {
+    z-index: 10;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    left: auto;
+    
+   
 }
+#jinja ul li {
+    float: left;
+    width: 216px;	
+    
+    display: inline-block;
+    list-style-type: none;
+}
+#jinja ul li a {
+    color: black;/*文字色 */
+    
+    text-align: center;
+    /* text-decoration: underline; */
+    font-weight: bold;
+    display: block;
+}
+#jinja ul li :hover{
+    background-color: #eeeeee;
+}
+
+
