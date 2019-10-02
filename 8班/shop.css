@@ -306,7 +306,7 @@ h1 {
   border: solid 3px #364e96;/*線色*/
   padding: 0.5em;/*文字周りの余白*/
   border-radius: 0.5em;/*角丸*/
-  /*display: inline-block;*/
+  display: inline-block;
 }
 #mapdata {
 	padding: 0;
