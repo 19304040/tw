@@ -38,7 +38,7 @@ body{
 		background-color: #ffffff;/*背景色*/
 		background-image: url(shop/hikawa.jpg);
 		background-repeat: no-repeat;
-		height: 265px;
+		height: 320px;/*265*/
 		border-top: 3px solid #FF6600;
 		position: relative;
     z-index: 10;
@@ -52,13 +52,13 @@ body{
 	
 .menubar>inner {/*ul*/
 	position: absolute;/*relativeつけたabsolute*/
-	top: 233px;
+	top: 233px;/*233*/
     overflow: hidden;
     
 }
 	.menubar ul{
 		position: absolute;
-		top:205px;
+		top:260px;/*205*/
 	}
 
 .menubar ul li {
