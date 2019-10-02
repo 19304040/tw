@@ -259,6 +259,10 @@ iframe:hover{
 	width:540px;
 	margin-bottom:50px;
 }
+#honnbunn img{
+margin: 1px;
+    padding: 0px;
+}
 
 #data{
 	padding: 0.5em 1em;
@@ -362,7 +366,7 @@ margin: 0 auto;
 }
 #mise ul li {
     float: left;
-    width: 150px;	/*メニューバーの幅*/
+    width: 145px;	/*メニューバーの幅*/
     display: inline-block;
     list-style-type: none;
 }
@@ -377,5 +381,8 @@ margin: 0 auto;
 #mise ul li :hover{
     background-color: #eeeeee;
 }
-
+#mise1 a {
+margin: 1px;
+    padding: 0px;
+}
 
